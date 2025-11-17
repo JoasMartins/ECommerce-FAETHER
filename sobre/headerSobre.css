@@ -1,0 +1,32 @@
+header{
+    width: 100%;
+    position: relative;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+#nav_logo{
+    font-size:24px;
+    color:rgb(48, 48, 138)
+}
+#nav_list{ /* CENTRALIZAÇÃO DO MENU */
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 48px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.nav_item a{
+    text-decoration: none;
+    color: rgb(48, 48, 138);
+    font-weight: 600;
+}
+.nav_item.active a{
+    color:rgb(48, 48, 138);
+    border-bottom: 3px solid rgb(48, 48, 138);
+}
